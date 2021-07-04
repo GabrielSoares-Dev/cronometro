@@ -1,0 +1,57 @@
+
+*{
+    font-family: 'Roboto, Sans serif';
+}
+body{
+    background:#482880;
+    
+}
+
+
+.contador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-top: 4%;
+    
+}
+
+.title{
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 150px;
+    height: 100px;
+    margin: 5%;
+    font-size: 30px;   
+    background: #000; 
+    border:none;
+    color: #fff;
+    cursor: pointer;  
+     border-radius: 20px;
+}
+h2{
+    font-size: 50px;
+    color:#fff;
+   
+}
+button:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+ 
+}
+button:active{
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+
