@@ -13,6 +13,7 @@ body{
     flex-direction: row;
     justify-content: center; 
     margin-top: 4%;
+  
     
 }
 
@@ -55,3 +56,10 @@ button:active{
     transition-duration: 0.5s;
 }
 
+h5{
+    text-align: center;
+   
+}
+a{
+     color:  #000;
+}
